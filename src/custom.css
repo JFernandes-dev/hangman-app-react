@@ -1,0 +1,35 @@
+.chosenWord {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-row-gap: 1px;
+  grid-column-gap: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 50px;
+  align-items: center;
+}
+
+.title {
+  text-decoration: underline;
+  align-items: center;
+}
+
+.allLetters {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-row-gap: 1px;
+  grid-column-gap: 1px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.wholePage {
+  
+  
+  background: lightsalmon;
+}
+
+.chosenWord {
+  margin-left: 40%
+}
